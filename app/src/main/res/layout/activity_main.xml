@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:weightSum="1"
+    tools:context="com.project.choirunnisa.kuismengenalbuah.MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_margin="8dp">
+
+                        <Button
+                            android:layout_width="160dp"
+                            android:layout_height="130dp"
+                            android:id="@+id/alpukat"
+                            android:background="@drawable/alpukat"
+                            android:layout_margin="2dp">
+                        </Button>
+
+                        <Button
+                            android:layout_width="160dp"
+                            android:layout_height="130dp"
+                            android:id="@+id/strawberry"
+                            android:background="@drawable/strawberry"
+                            android:layout_margin="2dp">
+                        </Button>
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_margin="8dp">
+
+                        <Button
+                            android:layout_width="160dp"
+                            android:layout_height="130dp"
+                            android:id="@+id/jambuair"
+                            android:background="@drawable/jambuair"
+                            android:layout_margin="2dp">
+                        </Button>
+
+                        <Button
+                            android:layout_width="160dp"
+                            android:layout_height="130dp"
+                            android:id="@+id/manggis"
+                            android:background="@drawable/manggis"
+                            android:layout_margin="2dp">
+                        </Button>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_margin="8dp">
+
+                        <Button
+                            android:layout_width="160dp"
+                            android:layout_height="130dp"
+                            android:id="@+id/apel"
+                            android:background="@drawable/apel"
+                            android:layout_margin="2dp">
+                        </Button>
+
+                        <Button
+                            android:layout_width="160dp"
+                            android:layout_height="130dp"
+                            android:id="@+id/durian"
+                            android:background="@drawable/durian"
+                            android:layout_margin="2dp">
+                        </Button>
+
+
+                </LinearLayout>
+
+
+
+        </LinearLayout>
+
+</LinearLayout>
